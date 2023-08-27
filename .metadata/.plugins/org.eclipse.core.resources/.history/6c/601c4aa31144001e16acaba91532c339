@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Exemplo HTML</title>
+</head>
+
+<body>
+	<div align = "center">
+
+		<table border = 1>
+			<thead>
+				<tr>
+					<th><b> #ID</b></th>
+					<th><b> #NOME</b></th>
+					<th><b> Data de Nascimento</b></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Gabriel Silva</td>
+					<td align ="center">26/09/2023</td>
+				</tr>
+				
+				<tr>
+					<td>2</td>
+					<td>Paolo Guerrero</td>
+					<td>27/09/2023</td>
+				</tr>
+				
+				<tr>
+					<td>3</td>
+					<td>Emerson Sheik</td>
+					<td>28/09/2023</td>
+				</tr>
+				
+				
+			</tbody>
+
+			VAI CORINTHIANS
+		</table>
+
+	</div>
+</body>
+
+</html>

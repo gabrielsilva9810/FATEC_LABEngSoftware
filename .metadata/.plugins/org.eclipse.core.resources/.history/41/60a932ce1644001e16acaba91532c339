@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/styles.css">
+	<title>Exemplo HTML</title>
+</head>
+
+<body>
+	<div align="center">
+		<table class="table_round"></table>
+
+		<table border=1>
+			<thead>
+				<tr>
+					<th><b> #ID</b></th>
+					<th><b> #NOME</b></th>
+					<th><b> Data de Nascimento</b></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Gabriel Silva</td>
+					<td align="center">26/09/2023</td>
+				</tr>
+
+				<tr>
+					<td>2</td>
+					<td>Paolo Guerrero</td>
+					<td align="center">27/09/2023</td>
+				</tr>
+
+				<tr>
+					<td>3</td>
+					<td>Emerson Sheik</td>
+					<td align="center">28/09/2023</td>
+				</tr>
+
+
+			</tbody>
+		</table>
+
+		<br />
+		<br />
+
+		<div align="center">
+			
+			<form action="https://leandrocolevati.com.br/" method="post">
+				
+				<p><b> Cadastro de Pessoas</b></p>
+				
+			
+			
+			<table>
+				<tr>
+		
+					<td>
+						<input type="number" min="0" step="1" id="id" name="id" placeholder="#ID" required="required">
+		
+					</td>
+				<tr>
+		
+				</tr>
+				<td>
+					<input type="text" id="nome" name="nome" placeholder="Nome" required="required">
+		
+				</td>
+		
+				<tr>
+		
+				</tr>
+				<td>
+					<input type="date" id="id" name="dataNasc" placeholder="Data de Nascimento" required="required">
+		
+				</td>
+		
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="submit" id="enviar" name="enviar" value="Enviar">
+					</td>
+				</tr>
+				
+			</table>
+			
+			</form>
+		
+		
+		</div>
+
+	</div>
+</body>
+
+</html>

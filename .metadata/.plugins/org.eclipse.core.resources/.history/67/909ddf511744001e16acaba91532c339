@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+	background-color: #FCFC66;
+}
+
+.table_round {
+	border: 1px solid black;
+	border-radius: 10px;	
+}
+
+.th_dash{
+	border-style: dashed;
+}
