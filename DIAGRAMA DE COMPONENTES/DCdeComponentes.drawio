@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" modified="2023-09-22T18:37:11.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="a9f0sDforoJAZGi1HSax" version="21.8.1" type="google">
+  <diagram name="Página-1" id="-vGyC4DIGq6Al4wwbThD">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nMuoI97ZilC9JfcWumBD-1" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Interface do Usuário&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Login do Paciente&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Login do Funcionário&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-2" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="nMuoI97ZilC9JfcWumBD-1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-4" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Servidor de Aplicação&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;Gerenciamento da Fila de Pacientes&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;Gerenciamento da Triagem e Atendimento&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;Gerenciamento da Medicação, Internação e Exames&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="320" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-5" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="nMuoI97ZilC9JfcWumBD-4">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-6" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Banco de Dados&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Dados dos Pacientes&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Dados dos Funcionários&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Dados da Fila, Triagem, Atendimento,&amp;nbsp; Medicação, Internação e Exames&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="426" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-7" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="nMuoI97ZilC9JfcWumBD-6">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-8" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Servidor de Autenticação&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Verificação de Login do Paciente&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Verificação de Login do Funcionário&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-9" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="nMuoI97ZilC9JfcWumBD-8">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-10" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Serviço de Notificação&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;Notificações para os Pacientes&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-11" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="nMuoI97ZilC9JfcWumBD-10">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="nMuoI97ZilC9JfcWumBD-1" target="nMuoI97ZilC9JfcWumBD-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+            <mxPoint x="370" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="nMuoI97ZilC9JfcWumBD-1" target="nMuoI97ZilC9JfcWumBD-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="155" as="sourcePoint" />
+            <mxPoint x="410" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="nMuoI97ZilC9JfcWumBD-1" target="nMuoI97ZilC9JfcWumBD-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="188" y="190" as="sourcePoint" />
+            <mxPoint x="210" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="nMuoI97ZilC9JfcWumBD-6" target="nMuoI97ZilC9JfcWumBD-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+            <mxPoint x="370" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="nMuoI97ZilC9JfcWumBD-4" target="nMuoI97ZilC9JfcWumBD-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+            <mxPoint x="370" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMuoI97ZilC9JfcWumBD-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="nMuoI97ZilC9JfcWumBD-4" target="nMuoI97ZilC9JfcWumBD-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="380" as="sourcePoint" />
+            <mxPoint x="454" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
